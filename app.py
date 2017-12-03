@@ -10,7 +10,7 @@ import io
 app = Flask(__name__)
 support_compiler = {'g++': '.cpp', 'gcc': '.c'}
 # TODO: Change this is server musl bin
-compiler_bin_dir = '/home/alpaca/Documents/or1k-linux-musl/bin/'
+compiler_bin_dir = './bin/'
 compiler_prefix = 'or1k-linux-musl-'
 cache_dir = './cache'
 
